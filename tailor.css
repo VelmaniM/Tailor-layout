@@ -1,0 +1,298 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  font-size: 1vw;
+}
+:root {
+  --white: white;
+  --tuna: #323233;
+  --danube: #5f9ad4;
+  --bon-jour: #dbdadb;
+  --pine-cone: #655a53;
+  --storm-gray: #767880;
+  --cadet-blue: #9daec0;
+  --sail: #a8d6f9;
+  --blumine: #1e5a80;
+  --waikawa-gray: #576b9c;
+  --chambray: #34447c;
+}
+/* hero section */
+.hero-main {
+  justify-items: center;
+  align-content: center;
+}
+.hero-content {
+  margin-top: 1vw;
+  width: 90%;
+}
+.hero-header-name h1 {
+  font-size: 2vw;
+}
+
+.hero-header-name p {
+  font-size: 0.7vw;
+  padding-left: 2vw;
+  margin-bottom: 1vw;
+}
+/* hero main image */
+.hero-image {
+  background-color: var(--danube);
+  justify-items: center;
+  align-content: center;
+  color: var(--white);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.hero-img-content {
+  display: flex;
+  text-align: left;
+  width: 70vw;
+}
+span {
+  color: var(--white);
+  font-weight: bold;
+}
+.hero-img-content img {
+  height: 50vw;
+}
+.hero-img-content h1 {
+  padding-top: 15vw;
+  font-size: 3vw;
+  padding-bottom: 1vw;
+}
+.hero-img-content p {
+  line-height: 1.5vw;
+  width: 24vw;
+  font-size: 1vw;
+  padding-bottom: 1vw;
+}
+.line {
+  background-color: var(--bon-jour);
+  width: 24vw;
+  height: 0.1vw;
+  margin-bottom: 2vw;
+}
+.hero-img-content button {
+  height: 3vw;
+  width: 20vw;
+  border-style: none;
+  color: #5f9ad4;
+  font-weight: bold;
+  font-size: 1.2vw;
+}
+/* measure main */
+.measure-main {
+  margin-top: 2vw;
+  justify-items: center;
+  align-content: center;
+}
+.measure-content {
+  width: 90%;
+  justify-items: center;
+  text-align: center;
+}
+.measure-content h1 {
+  font-size: 2vw;
+  padding-bottom: 0.5vw;
+}
+.measure-content p {
+  width: 70vw;
+  font-weight: bold;
+  font-size: 1vw;
+  padding-bottom: 2vw;
+}
+.measure-content .line {
+  background-color: var(--bon-jour);
+  width: 10vw;
+  height: 0.1vw;
+  margin-bottom: 2vw;
+}
+.measure-content button {
+  border: 0.2vw solid var(--danube);
+  color: var(--danube);
+  background-color: var(--white);
+  height: 3vw;
+  width: 20vw;
+  font-weight: bold;
+  font-size: 1.2vw;
+}
+/* icon section */
+.icon-main {
+  background-color: var(--danube);
+  justify-items: center;
+  align-content: center;
+  margin-top: 3vw;
+  padding-bottom: 3vw;
+}
+.icon-content {
+  justify-content: space-evenly;
+  width: 90%;
+  display: flex;
+}
+.icon {
+  justify-items: center;
+  align-content: center;
+  margin-top: 2vw;
+  text-align: center;
+  font-size: 1vw;
+}
+.icon i {
+  color: var(--white);
+  border: 0.2vw solid var(--white);
+  border-radius: 100%;
+  padding-left: 0.8vw;
+  padding-right: 0.8vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  font-size: 3vw;
+}
+.icon h4 {
+  color: var(--white);
+  margin-top: 1vw;
+}
+.icon p {
+  width: 27vw;
+  text-align: center;
+  color: var(--white);
+  margin-top: 0.5vw;
+}
+.icon .line {
+  justify-items: center;
+  align-content: center;
+  margin-top: 1vw;
+  background-color: var(--bon-jour);
+  width: 5vw;
+  height: 0.1vw;
+}
+.arrow {
+  background-color: var(--tuna);
+  justify-items: center;
+  align-content: center;
+}
+.triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 1.5vw solid transparent;
+  border-right: 1.5vw solid transparent;
+  border-top: 2vw solid var(--danube);
+}
+
+/* VISIT SECTION */
+.visit-main {
+  background-color: var(--tuna);
+  justify-items: center;
+  align-content: center;
+  padding-bottom: 2vw;
+}
+.visit-content {
+  padding-top: 2vw;
+  color: var(--white);
+  width: 90%;
+  text-align: center;
+  line-height: 2vw;
+}
+.visit-content h1 {
+  font-size: 2vw;
+}
+.visit-content p:nth-child(5) {
+  margin-top: 2vw;
+  padding-bottom: 1.5vw;
+}
+.visit-content button {
+  color: var(--danube);
+  background-color: var(--white);
+  height: 3vw;
+  width: 20vw;
+  font-weight: bold;
+  font-size: 1.2vw;
+}
+
+/* indochino photo section */
+.indochino-photo-main {
+  justify-items: center;
+  align-content: center;
+  margin-bottom: 3vw;
+}
+.indochino-photo-content {
+  width: 90%;
+  justify-items: center;
+}
+.indochino-photo-content h1 {
+  font-size: 3vw;
+  margin-top: 3vw;
+  margin-bottom: 0.5vw;
+}
+.indochino-photo-content .line {
+  width: 10vw;
+}
+.indochino-photos img {
+  padding-right: 0.3vw;
+  padding-bottom: 0.3vw;
+  width: 15vw;
+  height: 15vw;
+}
+
+/* news section */
+
+.indochino-news-main {
+  background-color: var(--tuna);
+  justify-items: center;
+  align-content: center;
+}
+.indochino-news-content {
+  justify-items: center;
+  margin-top: 3vw;
+  text-align: center;
+  color: var(--white);
+  width: 90%;
+}
+.indochino-news-content p {
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+  font-style: italic;
+  width: 60%;
+  font-size: 3vw;
+}
+.indochino-news-content h4 {
+  font-size: 1.5vw;
+  font-weight: lighter;
+  margin-bottom: 3vw;
+}
+.indochino-news-content button {
+  color: var(--danube);
+  background-color: var(--white);
+  height: 3vw;
+  width: 20vw;
+  font-weight: bold;
+  font-size: 1.2vw;
+  margin-bottom: 3vw;
+}
+
+/*  copyright section */
+.copyright-main {
+  justify-items: center;
+  align-content: center;
+}
+.copyright-content {
+  text-align: center;
+  width: 90%;
+  justify-items: center;
+  margin-bottom: 3vw;
+}
+.copyright-icons i {
+  color: var(--storm-gray);
+  font-size: 1.8vw;
+  margin-top: 3vw;
+  padding-right: 2vw;
+  margin-bottom: 2vw;
+}
+.copyright-content p {
+  margin-bottom: 2vw;
+  color: var(--storm-gray);
+  font-weight: bold;
+}
+.copyright-content a {
+  font-weight: bold;
+  color: var(--danube);
+}
